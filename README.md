@@ -45,7 +45,11 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
     .
+    ├── __mocks__
+    ├── cypress
+    ├──-- e2e
     ├── node_modules
+    ├── public
     ├── src
     ├── .gitignore
     ├── .prettierrc
@@ -81,6 +85,15 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
+
+13. **jest-preprocess.js**: A jest preprocessor file defining babel preset
+14. **jest.config.js**: A jest [unit tests](https://www.gatsbyjs.org/docs/unit-testing/) configuration file
+
+15. **cypress.json**: A [cypress integration](https://www.gatsbyjs.org/docs/end-to-end-testing/) test configuration file
+
+16. **\_\_mocks\_\_** folder contains test mocks
+
+17. **cypress** folder contains cypress integration tests
 
 ## 🎓 Learning Gatsby
 
